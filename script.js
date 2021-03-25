@@ -1,2 +1,13 @@
 
-const context = window.addEventListener('contextmenu', event => event.preventDefault());
+
+const allimg = document.querySelectorAll('img');
+allimg.forEach(allimg => allimg.draggable=false);
+
+
+window.addEventListener('contextmenu',function(e){
+    e.preventDefault();
+});
+
+window.addEventListener('keydown',function(e){
+    e.preventDefault();
+});
