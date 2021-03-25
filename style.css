@@ -1,14 +1,30 @@
 body {
-    background:black;
-    width:100%;
-    height:100%;
+	background: black;
+	
 }
 
-.modal-box {
-    border:1px solid white;
-    color:white;
-    text-align:center;
-    margin:1em 25em 0em 25em;
-    background: rgb(154, 16, 16);
-    text-shadow:1px 1px black, 2px 2px black, 3px 3px black;
+h1,h2 {
+	text-align:center;
+}
+
+h1 { 
+	color:orange;
+	font-size:3em;
+}
+
+h2 {
+	color:white;
+}
+
+h3 {
+	font-size: 4em;
+	color:white;
+	text-align:center;
+	margin:-0.2em 0em 0em 0em;
+}
+
+img {
+	margin:auto;
+	display:block;
+	border:5px solid orange;
 }
